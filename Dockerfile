@@ -12,6 +12,9 @@ RUN Rscript -e "\
         'knitr', \
         'boot', \
         'gplots', \
+        'GGally', \
+        'ggfortify', \
+        'ggrepel', \
         'tidyverse', \
         'pheatmap')); \
     BiocManager::install(c(\
