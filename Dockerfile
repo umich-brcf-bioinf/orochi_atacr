@@ -15,6 +15,7 @@ RUN Rscript -e "\
         'GGally', \
         'ggfortify', \
         'ggrepel', \
+        'ggpubr', \
         'tidyverse', \
         'statmod', \
         'pheatmap')); \
