@@ -16,6 +16,7 @@ RUN Rscript -e "\
         'ggfortify', \
         'ggrepel', \
         'tidyverse', \
+        'statmod', \
         'pheatmap')); \
     BiocManager::install(c(\
         'BiocCheck', \
