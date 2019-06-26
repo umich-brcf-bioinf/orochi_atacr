@@ -9,6 +9,7 @@ RUN Rscript -e "\
         'rmarkdown', \
         'roxygen2', \
         'testthat', \
+        'kableExtra' \
         'knitr', \
         'boot', \
         'gplots', \
