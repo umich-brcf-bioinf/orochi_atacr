@@ -9,10 +9,16 @@ RUN Rscript -e "\
         'rmarkdown', \
         'roxygen2', \
         'testthat', \
+        'kableExtra', \
         'knitr', \
         'boot', \
         'gplots', \
+        'GGally', \
+        'ggfortify', \
+        'ggrepel', \
+        'ggpubr', \
         'tidyverse', \
+        'statmod', \
         'pheatmap')); \
     BiocManager::install(c(\
         'BiocCheck', \
@@ -22,6 +28,7 @@ RUN Rscript -e "\
         'DelayedArray', \
         'edgeR', \
         'GO.db', \
+        'BSgenome.Hsapiens.UCSC.hg38', \
         'BSgenome.Hsapiens.UCSC.hg19', \
         'BSgenome.Mmusculus.UCSC.mm10', \
         'org.Dm.eg.db', \
@@ -32,7 +39,7 @@ RUN Rscript -e "\
         'org.Rn.eg.db', \
         'TxDb.Dmelanogaster.UCSC.dm3.ensGene', \
         'TxDb.Dmelanogaster.UCSC.dm6.ensGene', \
-        'TxDb.Drerio.UCSC.danRer10.refGene', \
+        'TxDb.Drerio.UCSC.danRer11.refGene', \
         'TxDb.Ggallus.UCSC.galGal5.refGene', \
         'TxDb.Hsapiens.UCSC.hg19.knownGene', \
         'TxDb.Hsapiens.UCSC.hg38.knownGene', \
