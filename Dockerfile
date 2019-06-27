@@ -41,6 +41,5 @@ RUN Rscript -e "\
         'TxDb.Rnorvegicus.UCSC.rn4.ensGene', \
         'TxDb.Rnorvegicus.UCSC.rn5.refGene', \
         'TxDb.Rnorvegicus.UCSC.rn6.refGene'), \
-    ask = FALSE, update = TRUE);"
-
-
+    ask = FALSE, update = TRUE); \
+    devtools::install_github('rcavalcante/annotatr@RELEASE_3_9-danRer11');"
