@@ -18,6 +18,7 @@ RUN Rscript -e "\
         'ggrepel', \
         'ggpubr', \
         'tidyverse', \
+        'openxlsx', \
         'statmod', \
         'pheatmap')); \
     BiocManager::install(c(\
